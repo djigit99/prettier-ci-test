@@ -22,5 +22,4 @@ jobs:
         uses: creyD/prettier_action@v4.2
         with:
           dry: True
-          prettier_options: --check **/*.{js,css}
-          only_changed: True
+          prettier_options: --check **/*.{js,css} --tab-width 4
