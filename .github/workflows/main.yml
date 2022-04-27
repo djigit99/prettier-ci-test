@@ -24,3 +24,4 @@ jobs:
         with:
           dry: True
           prettier_options: --check **/*.{js,css}
+          only_changed: True
