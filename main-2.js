@@ -29,5 +29,5 @@ function set_like(liked_id) {
 }
 
 document.querySelectorAll("[data-like-id]").forEach((el) => {
-    set_like(el.dataset.likeId);
+    set_like(el.dataset.likeId)  ;
 });
